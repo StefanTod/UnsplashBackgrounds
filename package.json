@@ -1,24 +1,24 @@
-
 {
-    "name": "UnsplashBackgrounds",
-    "version": "0.0.1",
-    "description": "Get royalty free HD pictures for your desktop background.",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/StefanTod/UnsplashBackgrounds.git"
-    },
-    "author": "Stefan Todorov",
-    "license": "MIT",
-    "scripts": {
-      "start": "nodemon src/index.js --exec babel-node",
-      "clear": "rm -rf dist && mkdir dist",
-      "build": "npm run clear && babel src -d dist",
-      "serve": "node dist/index.js"
-    },
-    "devDependencies": {
-      "babel-cli": "^6.26.0",
-      "babel-preset-es2015": "^6.24.1",
-      "babel-preset-stage-2": "^6.24.1",
-      "babel-register": "^6.26.0"
-    }
+  "name": "UnsplashBackgrounds",
+  "version": "0.0.1",
+  "description": "Get royalty free HD pictures for your desktop background.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanTod/UnsplashBackgrounds.git"
+  },
+  "author": "Stefan Todorov",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "clear": "rm -rf dist && mkdir dist",
+    "build": "npm run clear && babel src -d dist",
+    "serve": "node dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.8.0"
+  }
 }
