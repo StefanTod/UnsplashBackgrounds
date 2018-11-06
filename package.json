@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "dotenv": "^6.1.0",
-    "lodash": "^4.17.5",
+    "lodash": ">=4.17.5",
     "unsplash-js": "^4.8.0"
   }
 }
