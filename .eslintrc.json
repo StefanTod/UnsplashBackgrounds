@@ -28,6 +28,7 @@
         "indent": [
             "error",
             2
-        ]
+        ],
+        "no-console": 0, // For logging
     }
 }
